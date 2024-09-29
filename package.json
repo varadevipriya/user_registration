@@ -23,14 +23,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "db": "node ./src/backend/index.js && npm run start",
     "backend": "node ./src/backend/index.js",
     "frontend": "react-scripts start",
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "eslintConfig": {
     "extends": [
