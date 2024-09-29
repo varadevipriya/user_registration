@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "db": "node ./src/backend/index.js && npm run start",
-    "backend": "node ./src/backend/index.js",
+    "backend": "node ./api/index.js",
     "frontend": "react-scripts start",
     "start": "concurrently \"npm run backend\" \"npm run frontend\""
   },
